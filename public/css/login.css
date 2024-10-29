@@ -1,0 +1,18 @@
+html{
+    object-fit: cover;
+    background-image: url(../imagen/fondo_card.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    background-size: 100%  100%;
+}
+
+
+
+
+.container_login{
+    text-align: center;
+    margin-top: 200px;
+   
+    
+}

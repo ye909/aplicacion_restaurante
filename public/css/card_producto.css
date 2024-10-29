@@ -1,0 +1,48 @@
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:0px 60px;
+    width: 90%;
+}
+.texto_parafo{
+    color: yellow;
+    text-shadow: rgb(3, 1, 17) 4px 2px 2px ;
+}
+.container_reserva{
+    text-align: center;
+   
+}
+.ventana_modal{
+    text-align: center;
+    background:rgba(7, 7, 7, 0.3);
+padding: 10px;
+margin: 10px;
+width: 18%;
+border-radius: 10px;
+
+box-shadow: blue 1px 1px 1px  2px ;
+}
+.ventana_modal p{
+    color:white;
+    font-size: 16px;
+}
+.modal_titulo{
+    color:yellow;
+    padding: 10px;
+}
+.ventana_modal button{
+    width: 100px;
+    padding: 7px;
+    background:transparent;
+    color:white;
+    border-radius:15px;
+
+}
+.ventana_modal button:hover{
+    background:black;
+    box-shadow: blue 1px 1px 1px  1px ;
+}
+
