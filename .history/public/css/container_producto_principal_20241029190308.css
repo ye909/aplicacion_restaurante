@@ -113,6 +113,10 @@ color:white;
     border-radius:4px;
 color:white;
 }
+.container_persona p{
+    font-size: 10px;
+    
+}
 
 .info_personas {
     display: flex;

@@ -1,0 +1,1 @@
+const caja_buscar = document.getElementById("caja_buscar")

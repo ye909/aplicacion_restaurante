@@ -68,7 +68,7 @@ const ploductos = [
     {
       id:10,
       precio:30000,
-    nombre:"Jugos",
+    nombre:"Coltel",
     img:"../public/imagen/JUGOS_NATURALES.jpg",
       descripcion:"La lechona es un plato típico de la región Colombiana del Tolima y Huila. Este plato fuerte está compuesto por carne de cerdo, y arvejas principalmente. Es servido con arepas de maíz blanco y una variedad de natilla que localmente se conoce como "
      ,descripcion1:"plátanos rellenos"

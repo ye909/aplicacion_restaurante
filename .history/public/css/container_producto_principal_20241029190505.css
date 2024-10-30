@@ -113,7 +113,13 @@ color:white;
     border-radius:4px;
 color:white;
 }
-
+.container_persona p{
+    font-size: 10px;
+  
+}
+.container_persona img{
+    margin-left: 40px;
+}
 .info_personas {
     display: flex;
     justify-content: space-between;
