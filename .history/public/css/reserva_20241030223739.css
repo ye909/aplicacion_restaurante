@@ -1,0 +1,158 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+    background-image:url(/public/imagen/fondo_card.jpg);
+    background-repeat:no-repeat;
+    box-sizing:border-box;
+    background-attachment: fixed;
+    background-size:100%;
+}
+/* .container_fondo{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    } */
+  .container {
+    margin-top: 20px;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    background:rgba(14, 13, 13,0.3);
+    display: none;
+  }
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  h2,h1{
+    color:yellow;
+  }
+  label {
+    /* display: block; */
+    /* margin-bottom: 5px; */
+    color:white;
+    font-size: 15px;
+  }
+  input, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .inline-group {
+    display: flex;
+    gap: 10px;
+ 
+  }
+  .inline-group > div {
+    width: 46%;
+  }
+  textarea {
+    resize: vertical;
+  }
+  
+
+  .submit-button {
+    width: 45%;
+    padding: 6px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border:1px solid black;
+  
+    border-radius:6px;
+  }
+  
+  .submit-button:hover {
+    background-color: black;
+    box-shadow: 1px 1px 1px #0056b3;
+  }
+  input:focus{
+    outline: none;
+    } 
+    select{
+        padding: 4px;
+     
+    }
+    .texto_reserva img{
+      object-fit: cover;
+      width: 20%;
+   animation: animacionglobo 2s 2 linear;
+    }
+@keyframes animacionglobo {
+  from{
+opacity: 1;
+  }to{
+    transform:rotate(360deg);
+  }
+}
+    .texto_reserva{
+      display: none;
+      width: 40%;
+      top: 100px;
+      position: fixed;
+      text-align: center;
+      background:rgba(252, 249, 249,0.4);
+      z-index: 22;
+      text-wrap:balance;
+      line-height: 2;
+   border-radius: 10px ;
+   animation: animacion 2s  1;
+  
+    }
+    @keyframes animacion{
+from{
+  opacity: 0;
+  transform: translateY(-400px);
+}to{
+  opacity: 1;
+} 
+  }  
+
+
+  
+    .container{
+    /* display: none; */
+    }
+    .texto_reserva div{
+      display: flex;
+      justify-content: flex-end;
+      font-size: 24px;
+      color:red;
+      margin: -10px 5px;
+      cursor: pointer;
+    }
+    .texto_reserva p{
+      width: 96%;
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    .info{
+ 
+      font-size: 20px;
+  margin-left: 60px;
+
+  }
+
+
+
+
