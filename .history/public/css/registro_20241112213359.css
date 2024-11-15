@@ -1,0 +1,55 @@
+
+body{
+
+    background-image: url(../imagen/fondo_card.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.container_registro{
+    width: 60%;
+}
+form{
+
+    padding: 20px;
+ 
+  box-shadow: rgb(3, 3, 4) 1px 1px 1px 4px   ;
+ border-radius: 4px;
+}
+/* .nombres_apellido,.contacto_ciudad,.direccion,.Contraseña{ 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.container_cuenta{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:yellow;
+}
+.contaier_btnbotones{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 10px;
+    
+}
+label{
+    font-size: 20px;
+    
+}
+input{
+    padding: 10px;
+    width: 400px;
+    margin: 5px;
+}
+:is(button){
+    padding: 6px;
+    width: 160px;
+    margin: 10px;
+}
+.checkbox{
+    display: flex;
+} */

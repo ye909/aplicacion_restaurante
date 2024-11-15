@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "titulo": "alemania",
+    "img": "../public/imagen/alemania.png",
+    "descripcion": "de"
+  },
+  {
+    "id": 2,
+    "titulo": "argentina",
+    "img": "../public/imagen/argentina.png",
+    "comidas":["Asado", "Empanadas", "Milanesa"],
+    "descripcion": "sa"
+  },
+  {
+    "id": 3,
+    "titulo": "australia",
+    "img": "../public/imagen/australia.png",
+    "descripcion": "grh"
+  },
+  {
+    "id": 4,
+    "titulo": "belgica",
+    "img": "../public/imagen/belgica.png",
+    "descripcion": "r"
+  },
+  {
+    "id": 5,
+    "titulo": "bolivia",
+    "img": "../public/imagen/bolivia.png",
+    "descripcion": "qw"
+  },
+  {
+    "id": 6,
+    "titulo": "brasil",
+    "img": "../public/imagen/brasil.png",
+    "descripcion": "as"
+  },
+  {
+    "id": 7,
+    "titulo": "canada",
+    "img": "../public/imagen/canada.png",
+    "descripcion": "fd"
+  },
+  {
+    "id": 8,
+    "titulo": "chile",
+    "img": "../public/imagen/chile.png",
+    "descripcion": "trh"
+  },
+  {
+    "id": 9,
+    "titulo": "colombia",
+    "img": "../public/imagen/colombia.png",
+    "comidas":["Bandeja Paisa", "Ajiaco", "Arepas"],
+    "descripcion": "a"
+  },
+  {
+    "id": 10,
+    "titulo": "corea-del-sur",
+    "img": "../public/imagen/corea-del-sur.png",
+    "descripcion": "as"
+  },
+  {
+    "id": 11,
+    "titulo": "costa-rica",
+    "img": "../public/imagen/costa-rica.png",
+    "descripcion": "qq"
+  },
+  {
+    "id": 12,
+    "titulo": "cuba",
+    "img": "../public/imagen/cuba.png",
+    "descripcion": "ddd"
+  },
+  {
+    "id": 13,
+    "titulo": "ecuador",
+    "img": "../public/imagen/brasil.png",
+    "descripcion": "qw"
+  },
+  {
+    "id": 14,
+    "titulo": "el-salvador",
+    "img": "../public/imagen/el-salvador.png",
+    "descripcion": "gd"
+  },
+  {
+    "id": 15,
+    "titulo": "espana",
+    "img": "../public/imagen/espana.png",
+    "descripcion": "fg"
+  },
+  {
+    "id": 16,
+    "titulo": "estados-unidos",
+    "img": "../public/imagen/estados-unidos.png",
+    "descripcion": "vv"
+  },
+  {
+    "id": 17,
+    "titulo": "francia",
+    "img": "../public/imagen/francia.png",
+    "descripcion": "ssas"
+  },
+  {
+    "id": 18,
+    "titulo": "guatemala",
+    "img": "../public/imagen/guatemala.png",
+    "descripcion": "hj"
+  },
+  {
+    "id": 19,
+    "titulo": "honduras",
+    "img": "../public/imagen/honduras.png",
+    "descripcion": "kjjh"
+  },
+  {
+    "id": 20,
+    "titulo": "india",
+    "img": "../public/imagen/india.png",
+    "descripcion": "k"
+  },
+  {
+    "id": 21,
+    "titulo": "japon",
+    "img": "../public/imagen/japon.png",
+    "descripcion": "gd"
+  },
+  {
+    "id": 22,
+    "titulo": "lituania",
+    "img": "../public/imagen/lituania.png",
+    "descripcion": "hgh"
+  },
+  {
+    "id": 23,
+    "titulo": "nicaragua",
+    "img": "../public/imagen/nicaragua.png",
+    "descripcion": "hgh"
+  },
+  {
+    "id": 24,
+    "titulo": "panama",
+    "img": "../public/imagen/panama.png",
+    "descripcion": "jkj"
+  },
+  {
+    "id": 25,
+    "titulo": "peru",
+    "img": "../public/imagen/peru.png",
+    "comidas": ["Ceviche", "Lomo Saltado", "Ají de Gallina"],
+    "descripcion": "jk"
+  },
+  {
+    "id": 26,
+    "titulo": "paraguay",
+    "img": "../public/imagen/paraguay.png",
+    "descripcion": "gf"
+  },
+  {
+    "id": 27,
+    "titulo": "Mexico",
+    "img": "../public/imagen/portugal.png",
+    "comidas":["Tacos al Pastor", "Enchiladas", "Chiles en Nogada"],
+    "descripcion": "ssa"
+  }
+]
+

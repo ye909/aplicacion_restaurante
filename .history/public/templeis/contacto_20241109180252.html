@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones de PQR</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+        .notification { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+        .notification p { margin: 5px 0; }
+        .button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Notificaciones de PQR</h1>
+        <div id="notificationList">
+            <!-- Las notificaciones aparecerán aquí -->
+        </div>
+        <button class="button" onclick="addNotification()">Agregar Nueva Notificación</button>
+    </div>
+
+    <script src="">
+        // Array para almacenar notificaciones de PQR
+let notifications = [];
+
+// Función para renderizar las notificaciones en el HTML
+function renderNotifications() {
+    const notificationList = document.getElementById('notificationList');
+    notificationList.innerHTML = ''; // Limpiar lista antes de volver a renderizar
+
+    notifications.forEach((notification, index) => {
+        const notificationDiv = document.createElement('div');
+        notificationDiv.classList.add('notification');
+
+        const content = `
+            <p><strong>PQR #${index + 1}</strong></p>
+            <p>${notification.message}</p>
+            <p><small>Fecha: ${notification.date}</small></p>
+        `;
+
+        notificationDiv.innerHTML = content;
+        notificationList.appendChild(notificationDiv);
+    });
+}
+
+// Función para agregar una nueva notificación de PQR
+function addNotification() {
+    const newNotification = {
+        message: "Ha recibido una nueva notificación de PQR.",
+        date: new Date().toLocaleString()
+    };
+
+    notifications.push(newNotification); // Agregar la nueva notificación al array
+    renderNotifications(); // Volver a mostrar todas las notificaciones en el HTML
+}
+
+// Llamada inicial para mostrar notificaciones (si existen)
+renderNotifications();
+
+    </script>
+</body>
+</html>
